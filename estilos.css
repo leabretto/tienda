@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap'); 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+.barra{
+    height: 120px;
+    background-color: #74c69d;
+}
+
+.imagen-logo{
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-logo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+
+}
+
+.img{
+    display: flex;
+    align-content: center;
+}
+
+.lista-productos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+
+.lista-productos li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 25px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0;
+   
+   
+}
+
+.lista-productos li a:hover{
+    background-color: azure;
+    color: black;
+    text-decoration: underline;
+}
+.marca{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: springgreen;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px black;
+    animation-name: efecto;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    transition: 2s;
+    margin-top: 0;
+}
+
+.descripcion{
+    color: aquamarine;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+    
+    
+    
+}
+
+.card{
+    margin-top: 50px;
+    height: 100%;
+}
+
+.back-foto{
+    margin-top: 80px;
+    background-image: url(Imagenes/wood-g87e108b7e_640.jpg);
+    height: 600px;
+}
+
+.container h1{
+    color: #fff;
+    text-align: center;
+}
+
+.img1:hover{
+    transform: rotatey(360deg);
+    transition: 2s;
+        
+      
+
+}
+
+.informacion{
+    display: flex;
+    background-color: black;
+    
+}
+
+.donde-estamos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales{
+    width: 50%;
+    
+    
+}
+
+h3{
+    color: springgreen;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+iframe{
+    width: 250px;
+    
+}
+
+i{
+    font-size: 40px;
+    color: springgreen;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    
+   
+
+}
+
+i:hover{
+    
+    color: white;
+}
+
+.logo-redes{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+
+@keyframes efecto {
+    10%{
+        color: springgreen;
+}
+    20%{
+        color: chartreuse;
+    }
+
+    30%{
+        color: coral;
+    }
+
+    50%{
+        color: brown;
+    }
+
+    60%{
+        color: crimson;
+    }
+
+    90%{
+        color: springgreen;
+    }
+}
